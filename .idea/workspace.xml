@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spin_SU-8_2100.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spin_SU-8_2150.csv" />
-    </list>
+    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,78 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Spin_SU-8_2015.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2015.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2025.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2025.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2035.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2035.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2050.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2050.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2075.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2075.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2100.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2100.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2150.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2150.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2005.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2005.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2010.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2010.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spin_SU-8_2007.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spin_SU-8_2007.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,6 +73,17 @@
             <path>
               <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="spin_curves" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,7 +191,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="770" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1826923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -264,7 +200,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
