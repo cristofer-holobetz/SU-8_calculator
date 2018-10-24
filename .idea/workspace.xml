@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2025-2075.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/development_times/DT_SU-8_2000_5-2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/development_times/DT_SU-8_2100-2150.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2000_5-2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2100-2150.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2000_5-2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2025-2075.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2100-2150.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +32,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="6" />
+          <entry key="csv" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="5" />
+          <entry key="CSV" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="135" />
+          <entry key="csv" value="775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="135" />
+          <entry key="CSV" value="775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -49,19 +57,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2150.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2000_5-2015.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2000_5-2015.csv">
+        <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2025-2075.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -69,45 +73,69 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2025-2075.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="115">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2010.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2100-2150.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2015.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2025.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2100-2150.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2035.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2100-2150.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2050.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2075.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2000_5-2015.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2100.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2100-2150.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -157,6 +185,13 @@
         <option value="$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2150.csv" />
         <option value="$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2000_5-2015.csv" />
         <option value="$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2025-2075.csv" />
+        <option value="$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2100-2150.csv" />
+        <option value="$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2100-2150.csv" />
+        <option value="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2100-2150.csv" />
+        <option value="$PROJECT_DIR$/assets/development_times/DT_SU-8_2100-2150.csv" />
+        <option value="$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv" />
+        <option value="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv" />
+        <option value="$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2025-2075.csv" />
       </list>
     </option>
   </component>
@@ -189,13 +224,13 @@
               <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="soft_bake_times" type="462c0819:PsiDirectoryNode" />
+              <item name="peb_times" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="spin_curves" type="462c0819:PsiDirectoryNode" />
+              <item name="soft_bake_times" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -427,10 +462,68 @@
       </provider>
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2025-2075.csv">
+    <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2000_5-2015.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2000_5-2015.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2100-2150.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2000_5-2015.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2100-2150.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2100-2150.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2100-2150.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/peb_times/PEB_SU-8_2025-2075.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/soft_bake_times/SB_SU-8_2025-2075.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
