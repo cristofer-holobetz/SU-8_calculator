@@ -8,13 +8,18 @@ channel_height = input('Select desired channel height in µm:')
 
 
 def print_values():
+    spin_speed = calc_spin_speeds(channel_height)
     sb_times = calc_sb_times(channel_height)
+    exp_energy = calc_exp_energy(channel_height)
+    peb_time = calc_peb_time(channel_height)
+    dev_time = calc_dev_time(channel_height)
+    print('Spin coat at v1 = 300 rpm, a1 = 100 rpm/s and v2 = ' + spin_speed + ', a2 = 300 rpm/s')
     if len(sb_times) == 2:
-        print(sb_times[0] + ' at 65C and ' + sb_times[1] + 'at 95C')
+        print('Perform Soft Bake for ' + sb_times[0] + ' minutes at 65C and ' + sb_times[1] + ' minutes at 95C.')
     else:
-        print(sb_times)
-    print(calc_exp_energy(channel_height))
-    print(calc_peb_time(channel_height))
+        print('Perform Soft Bake for ' + sb_times + ' minutes.')
+    print('Expose surface to ' + exp_energy + ' mJ/cm^2')
+    print()
     print(calc_dev_time(channel_height))
 
 
@@ -58,7 +63,7 @@ def linear_func(x1, y1, x2, y2):
     return func
 
 
-def spin_curves(height):
+def calc_spin_speeds(height):
     curve_range = choose_resist_range(height)
 
     with open('assets/spin_curves/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
