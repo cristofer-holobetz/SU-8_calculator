@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileReader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileWriter.py" beforeDir="false" />
-    </list>
+    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +23,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="21" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="20" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="968" />
-          <entry key="py" value="3696" />
+          <entry key="py" value="3847" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="968" />
-          <entry key="Python" value="3696" />
+          <entry key="Python" value="3847" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -58,15 +53,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="278">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
               <folding>
-                <marker date="1540435060424" expanded="true" signature="1472:2284" ph="..." />
-                <marker date="1540435060424" expanded="true" signature="1553:1699" ph="..." />
-                <marker date="1540435060424" expanded="true" signature="2310:2869" ph="..." />
-                <marker date="1540435060424" expanded="true" signature="2897:3255" ph="..." />
-                <marker date="1540435060424" expanded="true" signature="3281:3630" ph="..." />
-                <marker date="1540435060424" expanded="true" signature="3656:3657" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="1367:2179" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="1448:1594" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="2215:2776" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="2814:3174" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="3210:3561" ph="..." />
+                <marker date="1540435408470" expanded="true" signature="3597:3598" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,6 +124,7 @@
         <option value="$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2000_5-2015.csv" />
         <option value="$PROJECT_DIR$/assets/development_times/DT_SU-8_2000_5-2015.csv" />
         <option value="$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2002.csv" />
+        <option value="$PROJECT_DIR$/Run_File.py" />
         <option value="$PROJECT_DIR$/Calculator.py" />
       </list>
     </option>
@@ -301,7 +297,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18745036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18745036" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -316,7 +312,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32633054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32633054" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Style Checker" order="11" />
@@ -530,17 +526,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Run_File.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="278">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
           <folding>
-            <marker date="1540435060424" expanded="true" signature="1472:2284" ph="..." />
-            <marker date="1540435060424" expanded="true" signature="1553:1699" ph="..." />
-            <marker date="1540435060424" expanded="true" signature="2310:2869" ph="..." />
-            <marker date="1540435060424" expanded="true" signature="2897:3255" ph="..." />
-            <marker date="1540435060424" expanded="true" signature="3281:3630" ph="..." />
-            <marker date="1540435060424" expanded="true" signature="3656:3657" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="1367:2179" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="1448:1594" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="2215:2776" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="2814:3174" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="3210:3561" ph="..." />
+            <marker date="1540435408470" expanded="true" signature="3597:3598" ph="..." />
           </folding>
         </state>
       </provider>

@@ -39,10 +39,10 @@ def make_linear_func(height, converted_curve):
     row, col = 0, 0
     while converted_curve[row][0] < height:
         row += 1
-    x1 = converted_curve[row][0]
-    y1 = converted_curve[row][1]
-    x2 = converted_curve[row + 1][0]
-    y2 = converted_curve[row + 1][1]
+    x1 = float(converted_curve[row][0])
+    y1 = float(converted_curve[row][1])
+    x2 = float(converted_curve[row + 1][0])
+    y2 = float(converted_curve[row + 1][1])
 
     return linear_func(x1, y1, x2, y2)
 
