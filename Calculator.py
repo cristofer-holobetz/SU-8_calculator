@@ -1,38 +1,32 @@
 import csv
 
-# Reads type of SU-8 user wants to use and selects correct files
 
-
-su8type = input('Select SU-8 Type:')
-channel_height = input('Select desired channel height in µm:')
-
-
-def print_values():
-    spin_speed = calc_spin_speeds(channel_height)
-    sb_times = calc_sb_times(channel_height)
-    exp_energy = calc_exp_energy(channel_height)
-    peb_time = calc_peb_time(channel_height)
-    dev_time = calc_dev_time(channel_height)
+def print_values(channel_height, resist_type):
+    spin_speed = calc_spin_speeds(channel_height, resist_type)
+    sb_times = calc_sb_times(channel_height, resist_type)
+    exp_energy = calc_exp_energy(channel_height, resist_type)
+    peb_time = calc_peb_time(channel_height, resist_type)
+    dev_time = calc_dev_time(channel_height, resist_type)
     print('Spin coat at v1 = 300 rpm, a1 = 100 rpm/s and v2 = ' + spin_speed + ', a2 = 300 rpm/s')
     if len(sb_times) == 2:
         print('Perform Soft Bake for ' + sb_times[0] + ' minutes at 65C and ' + sb_times[1] + ' minutes at 95C.')
     else:
         print('Perform Soft Bake for ' + sb_times + ' minutes.')
     print('Expose surface to ' + exp_energy + ' mJ/cm^2')
-    print()
-    print(calc_dev_time(channel_height))
+    print('Perform Post Exposure Bake for ' + peb_time + ' minutes')
+    print('Develop wafer for ' + dev_time + ' minutes')
 
 
-def choose_resist_range(height):
+def choose_resist_range(su8_type):
     range_1 = '2000_5-2015'
     range_2 = '2025-2075'
     range_3 = '2100-2150'
 
-    if 2000.5 <= height <= 2015:
+    if 2000.5 <= su8_type <= 2015:
         return range_1
-    elif 2025 <= height <= 2075:
+    elif 2025 <= su8_type <= 2075:
         return range_2
-    elif 2100 <= height <= 2150:
+    elif 2100 <= su8_type <= 2150:
         return range_3
     else:
         print('This photoresist is either unsupported or does not exist')
@@ -63,10 +57,11 @@ def linear_func(x1, y1, x2, y2):
     return func
 
 
-def calc_spin_speeds(height):
-    curve_range = choose_resist_range(height)
+def calc_spin_speeds(height, su8_type):
+    if su8_type == '2000.5':
+        su8_type = '2000_5'
 
-    with open('assets/spin_curves/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
+    with open('assets/spin_curves/Spin_SU-8_' + su8_type + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         spin_speeds = [tuple([val for val in row]) for row in reader]
 
@@ -74,8 +69,8 @@ def calc_spin_speeds(height):
         return spin_func(height)
 
 
-def calc_sb_times(height):
-    curve_range = choose_resist_range(height)
+def calc_sb_times(height, su8_type):
+    curve_range = choose_resist_range(su8_type)
 
     with open('assets/sb_times/SB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
@@ -90,8 +85,8 @@ def calc_sb_times(height):
         return sb_65_func(height)
 
 
-def calc_exp_energy(height):
-    curve_range = choose_resist_range(height)
+def calc_exp_energy(height, su8_type):
+    curve_range = choose_resist_range(su8_type)
 
     with open('assets/exposure_energies/EE_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
@@ -101,8 +96,8 @@ def calc_exp_energy(height):
         return ee_func(height)
 
 
-def calc_peb_time(height):
-    curve_range = choose_resist_range(height)
+def calc_peb_time(height, su8_type):
+    curve_range = choose_resist_range(su8_type)
 
     with open('assets/peb_times/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
@@ -112,13 +107,21 @@ def calc_peb_time(height):
         return peb_func(height)
 
 
-def calc_dev_time(height):
-    curve_range = choose_resist_range(height)
+def calc_dev_time(height, su8_type):
+    curve_range = choose_resist_range(su8_type)
 
-    with open('assets/development_times/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
+    with open('assets/development_times/DT_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         develop_times = [tuple([val for val in row]) for row in reader]
 
         develop_func = make_linear_func(height, [develop_times])
         return develop_func(height)
 
+
+user_su8_type = input('Select SU-8 Type:')
+user_height = input('Select desired channel height in µm:')
+
+# Reads type of SU-8 user wants to use and selects correct files
+
+
+print_values(user_height, user_su8_type)
