@@ -1,6 +1,7 @@
 import csv
 
 
+# Reads type of SU-8 user wants to use and selects correct files
 def print_values(channel_height, resist_type):
     channel_height = float(channel_height)
     resist_type = float(resist_type)
@@ -39,10 +40,9 @@ def choose_resist_range(su8_type):
         print('This photoresist is either unsupported or does not exist')
         return
 
+
 # Checks to see whether or not this curve slopes upwards or downwards. This could cause problems
 # if non-monotonic data sets are added in the future.
-
-
 def is_upward_slope(converted_curve):
 
     y_one = float(converted_curve[0][1])
@@ -50,10 +50,9 @@ def is_upward_slope(converted_curve):
 
     return y_two > y_one
 
+
 # Uses a HOF to produce the correct procedure for finding relevant section of the curve
 # TODO: Add error-catching to catch people who specify a height outside the range
-
-
 def find_flanking_points_maker(height, upward_slope):
 
     def find_flanking_points(converted_curve):
@@ -80,9 +79,8 @@ def find_flanking_points_maker(height, upward_slope):
 
     return find_flanking_points
 
+
 # Using HOFs to return a suitable linear function for any input range
-
-
 def make_linear_func(height, converted_curve):
     flanking_point_finder = find_flanking_points_maker(height, is_upward_slope(converted_curve))
     point_one = flanking_point_finder(converted_curve)[0]
@@ -179,8 +177,6 @@ def calc_dev_time(height, su8_type):
 
 user_su8_type = input('Select SU-8 Type:')
 user_height = float(input('Select desired channel height in µm:'))
-
-# Reads type of SU-8 user wants to use and selects correct files
 
 
 print_values(user_height, user_su8_type)
