@@ -68,7 +68,7 @@ def find_flanking_points_maker(height, upward_slope):
             while float(converted_curve[row][0]) < height:
                 row += 1
         else:
-            while float(converted_curve[row][0] > height):
+            while float(converted_curve[row][0]) > height:
                 row += 1
 
         x1 = float(converted_curve[row][0])
@@ -92,10 +92,12 @@ def linear_func(x1, y1, x2, y2):
 
 
 def calc_spin_speeds(height, su8_type):
-    if su8_type == '2000.5':
-        su8_type = '2000_5'
+    if su8_type == 2000.5:
+        su8_type_str = '2000_5'
+    else:
+        su8_type_str = str(int(su8_type))
 
-    with open('assets/spin_curves/Spin_SU-8_' + su8_type + '.csv', mode='r') as csvfile:
+    with open('assets/spin_curves/Spin_SU-8_' + su8_type_str + '.csv', mode='r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         spin_speeds = [tuple([val for val in row]) for row in reader]
 
