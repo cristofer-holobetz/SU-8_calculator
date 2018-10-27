@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="" />
+    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,37 +15,37 @@
     <session id="413467871">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="21" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="20" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="968" />
-          <entry key="py" value="3847" />
+          <entry key="py" value="5061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="968" />
-          <entry key="Python" value="3847" />
+          <entry key="Python" value="5061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,15 +56,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="304">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
               <folding>
-                <marker date="1540435408470" expanded="true" signature="1367:2179" ph="..." />
-                <marker date="1540435408470" expanded="true" signature="1448:1594" ph="..." />
-                <marker date="1540435408470" expanded="true" signature="2215:2776" ph="..." />
-                <marker date="1540435408470" expanded="true" signature="2814:3174" ph="..." />
-                <marker date="1540435408470" expanded="true" signature="3210:3561" ph="..." />
-                <marker date="1540435408470" expanded="true" signature="3597:3598" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1540614259364" expanded="true" signature="1464:3369" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="1678:1683" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="2286:2821" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="3405:4054" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="4092:4459" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="4495:4852" ph="..." />
+                <marker date="1540614259364" expanded="true" signature="4888:4889" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="638" />
     <option name="height" value="800" />
   </component>
@@ -141,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,16 +158,11 @@
               <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sb_times" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -296,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18745036" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -306,13 +306,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32633054" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32633054" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Style Checker" order="11" />
@@ -359,6 +359,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Calculator.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SU-8_2000_5" />
@@ -476,16 +487,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileReader.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileWriter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FileReader.py" />
+    <entry file="file://$PROJECT_DIR$/FileWriter.py" />
     <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2002.csv">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="csv-text-editor">
@@ -526,20 +529,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Run_File.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Run_File.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="304">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
           <folding>
-            <marker date="1540435408470" expanded="true" signature="1367:2179" ph="..." />
-            <marker date="1540435408470" expanded="true" signature="1448:1594" ph="..." />
-            <marker date="1540435408470" expanded="true" signature="2215:2776" ph="..." />
-            <marker date="1540435408470" expanded="true" signature="2814:3174" ph="..." />
-            <marker date="1540435408470" expanded="true" signature="3210:3561" ph="..." />
-            <marker date="1540435408470" expanded="true" signature="3597:3598" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1540614259364" expanded="true" signature="1464:3369" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="1678:1683" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="2286:2821" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="3405:4054" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="4092:4459" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="4495:4852" ph="..." />
+            <marker date="1540614259364" expanded="true" signature="4888:4889" ph="..." />
           </folding>
         </state>
       </provider>
