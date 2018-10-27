@@ -138,11 +138,20 @@ def calc_peb_time(height, su8_type):
     curve_range = choose_resist_range(su8_type)
 
     with open('assets/peb_times/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
-        peb_times = [tuple([float(val)for val in row]) for row in reader]
 
-        peb_func = make_linear_func(height, [peb_times])
-        return peb_func(height)
+        reader1, reader2 = itertools.tee(csv.reader(csvfile, delimiter=','))
+        num_cols = len(next(reader1))
+        del reader1
+
+        peb_65_times = [(float(row[0]), float(row[1])) for row in reader2]
+        peb_65_func = make_linear_func(height, peb_65_times)
+
+        if num_cols == 3:
+            peb_95_times = [(float(row[0]), float(row[2])) for row in reader2]
+            peb_95_func = make_linear_func(height, peb_95_times)
+            return peb_65_func(height), peb_95_func(height)
+
+        return peb_65_func(height)
 
 
 def calc_dev_time(height, su8_type):
