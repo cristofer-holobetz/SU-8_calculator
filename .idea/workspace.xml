@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sb_times/SB_SU-8_2025-2075.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sb_times/SB_SU-8_2025-2075.csv" afterDir="false" />
-    </list>
+    <list default="true" id="f8841b47-3330-47d7-b984-00891c5ca3a6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,27 +22,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="55" />
-          <entry key="py" value="34" />
+          <entry key="csv" value="59" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="54" />
+          <entry key="CSV" value="58" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="1039" />
-          <entry key="py" value="6122" />
+          <entry key="csv" value="1062" />
+          <entry key="py" value="6406" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="1039" />
-          <entry key="Python" value="6122" />
+          <entry key="CSV" value="1062" />
+          <entry key="Python" value="6406" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,39 +50,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+            <state relative-caret-position="-3195">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1540621576901" expanded="true" signature="1464:3813" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="1678:1683" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="2286:3207" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="3849:4526" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="4564:4931" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="4967:5733" ph="..." />
-                <marker date="1540621576901" expanded="true" signature="5769:5770" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="1644:4109" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="2169:3503" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="4145:4829" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="4867:5234" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="5270:6022" ph="..." />
+                <marker date="1540622772564" expanded="true" signature="6058:6059" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="323" selection-start-line="323" selection-end-line="323" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/sb_times/SB_SU-8_2025-2075.csv">
+        <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -176,12 +162,6 @@
               <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SU-8_calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SU-8_calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sb_times" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,8 +300,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18745036" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32633054" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Style Checker" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18745036" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -350,7 +359,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -389,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2100-2150.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="92">
@@ -427,14 +429,6 @@
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -511,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2025.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2035.csv">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -567,6 +553,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sb_times/SB_SU-8_2025-2075.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spin_curves/Spin_SU-8_2025.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/exposure_energies/EE_SU-8_2025-2075.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -581,28 +591,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="121" column="40" lean-forward="true" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1540621576901" expanded="true" signature="1464:3813" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="1678:1683" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="2286:3207" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="3849:4526" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="4564:4931" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="4967:5733" ph="..." />
-            <marker date="1540621576901" expanded="true" signature="5769:5770" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/assets/development_times/DT_SU-8_2025-2075.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sb_times/SB_SU-8_2025-2075.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3195">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1540622772564" expanded="true" signature="1644:4109" ph="..." />
+            <marker date="1540622772564" expanded="true" signature="2169:3503" ph="..." />
+            <marker date="1540622772564" expanded="true" signature="4145:4829" ph="..." />
+            <marker date="1540622772564" expanded="true" signature="4867:5234" ph="..." />
+            <marker date="1540622772564" expanded="true" signature="5270:6022" ph="..." />
+            <marker date="1540622772564" expanded="true" signature="6058:6059" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

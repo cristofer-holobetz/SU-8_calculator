@@ -106,7 +106,7 @@ def calc_spin_speeds(height, su8_type):
         su8_type_str = str(int(su8_type))
 
     with open('assets/spin_curves/Spin_SU-8_' + su8_type_str + '.csv', mode='r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
+        reader = csv.reader(csvfile, delimiter=',', skipinitialspace=True)
         spin_speeds = [tuple([val for val in row]) for row in reader]
 
         spin_func = make_linear_func(height, spin_speeds)
@@ -118,7 +118,7 @@ def calc_sb_times(height, su8_type):
 
     with open('assets/sb_times/SB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
 
-        reader = csv.reader(csvfile, delimiter=',')
+        reader = csv.reader(csvfile, delimiter=',', skipinitialspace=True)
         sb_both_temps = [tuple([col for col in row]) for row in reader]
 
         num_cols = len(sb_both_temps[0])
@@ -137,7 +137,7 @@ def calc_exp_energy(height, su8_type):
     curve_range = choose_resist_range(su8_type)
 
     with open('assets/exposure_energies/EE_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
+        reader = csv.reader(csvfile, delimiter=',', skipinitialspace=True)
         exp_energies = [tuple([float(val) for val in row]) for row in reader]
 
         ee_func = make_linear_func(height, exp_energies)
@@ -149,7 +149,7 @@ def calc_peb_time(height, su8_type):
 
     with open('assets/peb_times/PEB_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
         #  fix the bit I was stuck on in calc_sb_time
-        reader = csv.reader(csvfile, delimiter=',')
+        reader = csv.reader(csvfile, delimiter=',', skipinitialspace=True)
         peb_both_temps = [tuple([col for col in row]) for row in reader]
         num_cols = len(peb_both_temps[0])
 
@@ -168,7 +168,7 @@ def calc_dev_time(height, su8_type):
     curve_range = choose_resist_range(su8_type)
 
     with open('assets/development_times/DT_SU-8_' + curve_range + '.csv', mode='r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
+        reader = csv.reader(csvfile, delimiter=',', skipinitialspace=True)
         develop_times = [tuple([float(val) for val in row]) for row in reader]
 
         develop_func = make_linear_func(height, develop_times)
