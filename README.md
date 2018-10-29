@@ -7,4 +7,5 @@ Functionality for an increasing number of photoresists will be added as I go thr
 data into csv files.
 
 So far, the list of supported photoresists is: 
+
 SU-8_[2000.5, 2002, 2005, 2007, 2010, 2015, 2025, 2035, 2050, 2075, 2100, 2150]
