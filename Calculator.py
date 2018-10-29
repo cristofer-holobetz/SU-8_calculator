@@ -13,7 +13,8 @@ def print_values(channel_height, resist_type):
 
     print('Spin coat at v1 = 300 rpm, a1 = 100 rpm/s and v2 = ' + str(spin_speed) + ', a2 = 300 rpm/s.')
     if len(sb_times) == 2:
-        print('Perform Soft Bake for ' + str(sb_times[0]) + ' minutes at 65C and ' + str(sb_times[1]) + ' minutes at 95C.')
+        print('Perform Soft Bake for ' + str(sb_times[0]) + ' minutes at 65C and ' + str(sb_times[1])
+              + ' minutes at 95C.')
     else:
         print('Perform Soft Bake for ' + str(sb_times) + ' minutes.')
     print('Expose surface to ' + str(exp_energy) + ' mJ/cm^2.')
